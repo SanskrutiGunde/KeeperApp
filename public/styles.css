@@ -8,12 +8,14 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
+  background-color: #006e8a;
+  background-color: #74868a;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
 }
 
 header {
-  background-color: #2b924d;
-  margin: auto -16px;
+  background-color: #f98404;
+  margin: auto 0;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -28,7 +30,7 @@ footer {
   position: absolute;
   text-align: center;
   bottom: 0;
-  width: 95%;
+  width: 100%;
   height: 2.5rem;
 }
 
@@ -53,4 +55,54 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f98404;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f98404;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
