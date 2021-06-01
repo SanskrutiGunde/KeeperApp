@@ -27,6 +27,6 @@ You can use this app to write your notes for the day. You can create, edit and d
 - JavaScript
 - ReactJS
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Author <a name = "author"></a>
 
 - [@sanskrutigunde](https://github.com/sanskrutigunde)
