@@ -12,7 +12,7 @@ A Keeper app where you can maintain your notes.
 
 ## 🎈 Usage <a name = "usage"></a>
 
-You can use this app to write your notes for the day.You can create edit and delete notes.
+You can use this app to write your notes for the day. You can create, edit and delete notes.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
